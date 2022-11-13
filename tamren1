@@ -1,0 +1,32 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        String full_name = "ABEER ALABDULLAH "; // التمرين الأول
+        System.out.println(full_name);
+        int age = 23;              // التمرين الثاني
+        System.out.println(age);
+        int num1 = 10;           //  التمرين الثالث
+        int num2 = 2;
+        int sum = num1 + num2;
+        System.out.println(sum);
+        int div = sum / 2;
+        System.out.println(div);
+        int num3 = 5;         // التمرين الرابع
+        int num4 = 7;
+        int area = num3 * num4;
+        int pre = 2 * num3 + 2 * num4;
+        System.out.println(area);
+        System.out.println(pre);
+        int num5 = 23; // التمرين الخامس
+        int num6 = 45;
+        boolean g = num5 == num6;
+        System.out.println(g);
+        int a = 55;       //  التمرين السادس والسابع
+        int b= 70;
+        boolean c = 50 > a && b > a;
+        System.out.println(c);
+        boolean d = 50 > a || b > a;
+        System.out.println(d);
+    }
+}
